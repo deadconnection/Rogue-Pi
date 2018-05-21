@@ -11,7 +11,8 @@ apt-get install macchanger hostapd dnsmasq apache2 php
 echo "Configuring components..."
 cp -f hostapd.conf /etc/hostapd/
 cp -f dnsmasq.conf /etc/
-cp -Rf html /var/www/
+rm -f /var/www/html/index.html
+cp -Rf html /var/www/ 
 chown -R www-data:www-data /var/www/html
 chown root:www-data /var/www/html/.htaccess
 cp -f rc.local /etc/
