@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["Upu+f"]); }
+
+__d("KaiOSLogger",["BanzaiLogger","KaiOSLoggerEvent","KaiOSLoggerEventCategory"],(function(a,b,c,d,e,f,g,h,i){"use strict";__p&&__p();a={logAppVersion:function(a){g.log("KaiOSEventsLoggerConfig",{event:h.UPDATE_APP_VERSION,event_category:i.APP_INFO,app_version:a})},logUpsellEvent:function(a){var event=void 0;switch(a){case"click":event=h.UPSELL_CLICK;break;case"redirect":event=h.UPSELL_REDIRECT;break;case"error":event=h.UPSELL_ERROR;break}g.log("KaiOSEventsLoggerConfig",{event:event,event_category:i.UPSELL})}};e.exports=a}),null);

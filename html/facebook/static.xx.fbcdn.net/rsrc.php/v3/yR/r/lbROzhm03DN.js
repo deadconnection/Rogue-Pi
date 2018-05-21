@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["bbKcM"]); }
+
+__d("KaiOSLoggerEvent",[],(function(a,b,c,d,e,f){e.exports=Object.freeze({UPDATE_APP_VERSION:"update_app_version",UPSELL_SHOWN:"upsell_shown",UPSELL_CLICK:"upsell_click",UPSELL_DISMISS:"upsell_dismiss",UPSELL_REDIRECT:"upsell_redirect",UPSELL_ERROR:"upsell_error",PUSH_SUBSCRIPTION_CHANGE:"push_subscription_change",PUSH_SUBSCRIPTION_UPDATE_ERROR:"push_subscription_update_error"})}),null);
