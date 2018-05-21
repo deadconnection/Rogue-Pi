@@ -1,13 +1,13 @@
 # A rogue captive portal for Raspberry Pi
 
-This is a simple website and set of configuration files that turns a Raspberry Pi Zero W (or other Pi with WiFi) into a rogue access point named "Google Free Wi-Fi." It spoofs a captive portal that looks like the Google Account login page, however authentication always fails and the credentials are logged to a text file.
+This is a simple website and set of configuration files that turns a Raspberry Pi 3 / Zero W into a rogue access point named "Google Free Wi-Fi." It spoofs a captive portal that looks like the Google Account login page, however authentication always fails and the credentials are logged to a text file.
 
 It was designed to demonstrate the simplicity of offline credential grabbing and to educate about wireless security. Using this for malicious purposes is against the author's intent and could lead to prosecution under privacy laws.
 
 Installation after a fresh install of Rasbian Jessie Lite:
 ```
 sudo apt-get install git
-git clone https://github.com/braindead-sec/rogue-captive
+git clone https://github.com/expiredsource/rogue-captive
 cd rogue-captive
 chmod +x install.sh
 sudo ./install.sh
