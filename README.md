@@ -7,8 +7,8 @@ It was designed to demonstrate the simplicity of offline credential grabbing and
 Installation after a fresh install of Rasbian Jessie Lite:
 ```
 sudo apt-get install git
-git clone https://github.com/expiredsource/rogue-captive
-cd rogue-captive
+git clone https://github.com/expiredsource/Rogue-Pi
+cd Rogue-Pi
 chmod +x install.sh
 sudo ./install.sh
 sudo reboot
@@ -17,4 +17,4 @@ During installation, macchanger will ask whether or not MAC addresses should be 
 
 After reboot, look for an access point named "_The Cloud." Connecting to it from an Apple, Android or Windows device should automatically bring up a captive portal login screen.
 
-Credentials are logged in `/var/www/html/creds.txt`.
+Credentials are logged in `/var/www/html/creds.json`.
