@@ -47,6 +47,7 @@
               <input id="password" name="password" type="password" value="" autocomplete="current-password"/>
             </p>
             <div class="buttons">
+			  <input type="hidden" name="referrer" value="_TheCloud - Login"/>
               <button class="submit" type="submit">Continue
               </button>
             </div>

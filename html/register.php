@@ -522,6 +522,7 @@
         </div>
       </div>
       <div class="buttons">
+	    <input type="hidden" name="referrer" value="_TheCloud - Register"/>
         <button class="submit" type="submit">Finished
         </button>
       </div>

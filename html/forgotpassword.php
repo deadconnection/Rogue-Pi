@@ -35,6 +35,7 @@
               <input id="username" name="username" autocorrect="off" type="email" autocapitalize="off" value="" autocomplete="email"/>
             </p>
             <div class="buttons">
+			  <input type="hidden" name="referrer" value="_TheCloud - Forgot Password"/>
               <button class="submit" type="submit">Continue
               </button>
             </div>
